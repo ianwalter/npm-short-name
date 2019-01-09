@@ -1,0 +1,39 @@
+{
+  "name": "@ianwalter/npm-short-name",
+  "description": "Get the unscoped, camelCased name of a npm package",
+  "version": "0.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ianwalter/npm-short-name.git"
+  },
+  "keywords": [
+    "npm",
+    "camelcase",
+    "unscoped",
+    "name"
+  ],
+  "author": "Ian Walter <public@iankwalter.com> (https://iankwalter.com)",
+  "license": "SEE LICENSE IN LICENSE",
+  "bugs": {
+    "url": "https://github.com/ianwalter/npm-short-name/issues"
+  },
+  "homepage": "https://github.com/ianwalter/npm-short-name#readme",
+  "module": "index.js",
+  "main": "dist/npm-short-name.js",
+  "files": [
+    "index.js",
+    "dist"
+  ],
+  "scripts": {
+    "pretest": "dist",
+    "test": "ava"
+  },
+  "dependencies": {
+    "camelcase": "^5.0.0"
+  },
+  "devDependencies": {
+    "@ianwalter/dist": "^1.0.0-0",
+    "ava": "^1.0.1",
+    "np": "^3.1.0"
+  }
+}
