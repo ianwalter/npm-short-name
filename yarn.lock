@@ -325,12 +325,20 @@
   dependencies:
     arrify "^1.0.1"
 
+"@ianwalter/clone@^1.0.2":
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/@ianwalter/clone/-/clone-1.0.3.tgz#7f800e17149b0099e08ca669185c2da976b74289"
+  integrity sha512-nX1TtKPfOhXQBNr3FwDVjqSPFNZS10S2tuJKuH4Q4/WqWAzkdTHSVdNE4myVTHQStLEsuklJY91eE6VTBeRnDw==
+
 "@ianwalter/dist@^1.0.0-0":
-  version "1.0.0-0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/dist/-/dist-1.0.0-0.tgz#2fcab5623a86efe77dbefea6f114d6d7fe96572c"
-  integrity sha512-mx9bL3FO0F3aE8iCZ7bw7qF/1FwQAwKnU7NZp4YhpG2Xzu/gJRBLufl4V2u1Jv9+PF0lPUm23FJcma8/sEjpWw==
+  version "1.3.1"
+  resolved "https://registry.yarnpkg.com/@ianwalter/dist/-/dist-1.3.1.tgz#efdb0bbaf8786d37b842d07de780ecf490202f05"
+  integrity sha512-nyVzvPDjaiqw+v0A19sNduzVO81Psf16YgohMTSU8MjJ2lCB40+NL910ps+HOK6+rNKguc7R+an7Hot3YzuAwA==
   dependencies:
-    "@ianwalter/promise-complete" "^1.0.0"
+    "@babel/core" "^7.2.2"
+    "@ianwalter/clone" "^1.0.2"
+    "@ianwalter/npm-short-name" "^1.0.0"
+    "@ianwalter/promise-complete" "^2.0.0"
     chalk "^2.4.2"
     meow "^5.0.0"
     pify "^4.0.1"
@@ -340,10 +348,17 @@
     rollup-plugin-json "^3.1.0"
     rollup-plugin-node-resolve "^4.0.0"
 
-"@ianwalter/promise-complete@^1.0.0":
+"@ianwalter/npm-short-name@^1.0.0":
   version "1.0.0"
-  resolved "https://registry.yarnpkg.com/@ianwalter/promise-complete/-/promise-complete-1.0.0.tgz#a11b4ce24f5de90a25991ed429002dfb01d6d39a"
-  integrity sha512-qtGXIXp0oOPLuvaOSK2XROTeyIitk5btrAwlqmF9AVY5SWKYCTDuVpSNbIsgFQ90onE/PlbyRCtId71ON41ycQ==
+  resolved "https://registry.yarnpkg.com/@ianwalter/npm-short-name/-/npm-short-name-1.0.0.tgz#1ff8fcf73a20841e8fa13af77957a01c6e2329e8"
+  integrity sha512-3taWyyCjvk8NvFBCfjpjBu6RvH/UiqfqC9fnL7DgXMk4nM8ex18c89j2subo/M47MYZDZeSsvx1eWiwyZD4gFQ==
+  dependencies:
+    camelcase "^5.0.0"
+
+"@ianwalter/promise-complete@^2.0.0":
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/@ianwalter/promise-complete/-/promise-complete-2.0.0.tgz#c52446d48aa5b5bc572fee4a4d1ffffd300752f2"
+  integrity sha512-jwyGQoqX4rFwAv048v0TSBB4IrH7TBldOAXEQkcbd9ODk3iWkT8wnh/HZT26t7+CNW3joCwi+D0OmJTrAmTykA==
 
 "@samverschueren/stream-to-observable@^0.3.0":
   version "0.3.0"
