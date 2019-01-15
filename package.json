@@ -18,7 +18,7 @@
     "url": "https://github.com/ianwalter/npm-short-name/issues"
   },
   "homepage": "https://github.com/ianwalter/npm-short-name#readme",
-  "module": "index.js",
+  "module": "dist/npm-short-name.m.js",
   "main": "dist/npm-short-name.js",
   "files": [
     "index.js",
