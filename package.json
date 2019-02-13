@@ -33,7 +33,7 @@
     "camelcase": "^5.0.0"
   },
   "devDependencies": {
-    "@ianwalter/dist": "^1.0.0-0",
+    "@ianwalter/dist": "^2.0.2",
     "eslint": "^5.12.1",
     "eslint-config-standard": "^12.0.0",
     "eslint-plugin-import": "^2.16.0",

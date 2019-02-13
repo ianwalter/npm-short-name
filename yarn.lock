@@ -341,11 +341,12 @@
   dependencies:
     arrify "^1.0.1"
 
-"@ianwalter/dist@^1.0.0-0":
-  version "1.5.1"
-  resolved "https://registry.yarnpkg.com/@ianwalter/dist/-/dist-1.5.1.tgz#be3d40a1c307bd86c61f945b62010b47a89b3900"
-  integrity sha512-YE5L1GvGWa+DwvfUzLjz8J1zlgv3zHAyaBsp4IDu15EhgKg1zXA751qAbTD56ASZGQzVRhN+K2cXL+JTUSATGw==
+"@ianwalter/dist@^2.0.2":
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/@ianwalter/dist/-/dist-2.0.2.tgz#fda0c0c11d9c711eba622f3c5f7d7950adf6998d"
+  integrity sha512-KInWEPKm097FGdlAYZDBKPzJqF7smF95cVz1145ObnU4pxHKJP3tN1DPkqANZMMiRrpK3j0h7DaAB2t9N4snhA==
   dependencies:
+    "@babel/core" "^7.2.2"
     "@ianwalter/npm-short-name" "^1.0.0"
     "@ianwalter/promise-complete" "^3.0.1"
     chalk "^2.4.2"
